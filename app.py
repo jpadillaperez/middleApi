@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 #client = MongoClient(MONGODB_URI)
 client = MongoClient(
-    "mongodb://root:example@192.168.1.30/?retryWrites=true&w=majority")
+    "mongodb+srv://jorge:jorge@tpt.tw8tdw7.mongodb.net/?retryWrites=true&w=majority")
 
 db = client["tpt"]
 collection = db["beaches"]
