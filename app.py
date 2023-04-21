@@ -15,7 +15,7 @@ client = MongoClient(
     "mongodb://root:example@192.168.1.30/?retryWrites=true&w=majority")
 
 db = client["tpt"]
-collection = db["natural_pools"]
+collection = db["beaches"]
 
 
 @app.route('/api/python/getRandomID')
